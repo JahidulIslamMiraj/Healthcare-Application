@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabTestActivity"
+    android:background="@drawable/my2">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To HealthCare"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:drawableRightCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_dialog_map"
+        android:text="Deliver Location:Dhaka"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="package 1 : Full Body Checkup    500/-"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="337dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="package 2 : Blood Checkup    900/-"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="package 3 : Covid -19 Checkup    1500/-"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@android:drawable/checkbox_on_background"
+        android:text="Go To Start"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="?attr/actionModePasteDrawable"
+        android:text="Lab Test And Package"
+        android:textColor="@color/design_default_color_error"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
